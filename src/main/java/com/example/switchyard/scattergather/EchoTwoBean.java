@@ -5,7 +5,7 @@ import org.switchyard.component.bean.Service;
 
 @Service(EchoTwo.class)
 public class EchoTwoBean implements EchoTwo {
-	private static final Logger LOG = Logger.getLogger(EchoOneBean.class);
+	private static final Logger LOG = Logger.getLogger(EchoTwoBean.class);
 	
 	@Override
 	public String message(String message) {
