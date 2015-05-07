@@ -25,7 +25,7 @@
       <sca:interface.java interface="com.example.switchyard.scattergather.EchoTwo"/>
       <jms:binding.jms name="jms1">
         <sy:operationSelector operationName="message"/>
-        <jms:queue>Echo</jms:queue>
+        <jms:topic>Echo</jms:topic>
         <jms:connectionFactory>#ConnectionFactory</jms:connectionFactory>
       </jms:binding.jms>
     </sca:service>
